@@ -1,0 +1,35 @@
+<style>
+    span {
+        color: black;
+        font-size: 35px;
+        font-weight: bold;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <span id="element"></span> 
+    </div>
+</body>
+</html>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+   var typed = new Typed('#element', {
+      strings: [
+        'My name is Edgaras Uchinas',
+         "I forgot what else I needed to write here...",
+          "Let me check the rubric again...",
+          "Oh yeah, Course Number and Course Section...",
+          "The Course is IS 117 and the Section is 001."
+        ],
+      typeSpeed: 50,
+    });
+  </script>
